@@ -39,8 +39,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun connectToRoom() {
 
-        val url = "wss://your_host"
-        val token = "your_token"
+        val url = "ws://192.168.1.41:7880"
+        val token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjcwMjIwMDEsImlzcyI6IkFQSXJramtRYVZRSjVERSIsIm5iZiI6MTY2NDQzMDAwMSwic3ViIjoidGVzdGFuZHJvaWQxIiwidmlkZW8iOnsicm9vbSI6InJvb20xIiwicm9vbUpvaW4iOnRydWV9fQ.Y34CM6nKxC9zYOqJ0jj7oeOFJlMuUpOKqFIiSR-um6M"
 
         lifecycleScope.launch {
 
