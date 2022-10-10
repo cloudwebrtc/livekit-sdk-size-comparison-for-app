@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
             // Turn on audio/video recording.
             val localParticipant = room.localParticipant
             localParticipant.setCameraEnabled(true)
-            localParticipant.setCameraEnabled(true)
+            localParticipant.setMicrophoneEnabled(true)
         }
     }
 
