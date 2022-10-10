@@ -42,6 +42,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.aar'])
+    implementation ("com.github.webrtc-sdk:android-test:104.5112.01")
+
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
     implementation('androidx.lifecycle:lifecycle-runtime-ktx:2.2.0-alpha01')
 
