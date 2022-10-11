@@ -1,0 +1,11 @@
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+Package.resolved
+Documentation
+# DocC
+/build_docs/
+*.doccarchive
+WebRTC.xcframework
