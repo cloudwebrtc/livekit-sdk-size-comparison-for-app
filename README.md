@@ -31,6 +31,7 @@ app/build.gradle
 ```
 
 #iOS
+
 open `uikit-minimal-dev.xcworkspace`
 
 Add Packages Dependencies, Add Localation `https://github.com/livekit/client-sdk-swift.git` branch `for-binary-size-optimization`
